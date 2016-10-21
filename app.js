@@ -24,6 +24,14 @@ App({
       })
     }
   },
+  //监听 小程序显示在前台
+  onShow:function(){
+
+  },
+  //监听 小程序隐藏在后台
+  onHide:function(){
+
+  },
   globalData:{
     userInfo:null
   }
