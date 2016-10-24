@@ -16,7 +16,7 @@ Page({
   },
   testUrl: function(){
     wx.navigateTo({
-      url: '../test/test'
+      url: '../alive/index/index'
     })
   },
   onLoad: function () {

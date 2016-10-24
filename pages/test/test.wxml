@@ -1,0 +1,23 @@
+<view>
+    <text>Hello Small</text>
+</view>
+<view>
+    <button bindtap="changeText">{{butext}}</button>
+</view>
+<view>
+    <text bindtap="changeObject">{{test.text}}</text>
+</view>
+<view>
+    <text>{{globaltest}}</text>
+</view>
+<view wx:for="{{array}}">
+    <text>Hello Small</text>
+</view>
+<view wx:if="{{iftest == 'KU'}}">
+ <text>KU</text>
+ <text>Kaa</text>
+ </view>
+<view wx:elif="{{iftest == 'SHUAI'}}">SHUAI</view>
+<view wx:else="{{iftest == 'PUTONG'}}">PUTONG</view>
+<view bindtap="add">{{count}}</view>
+<view hidden="{{flag ? true : fasle}}">Hidden</view>
