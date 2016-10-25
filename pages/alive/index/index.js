@@ -12,6 +12,7 @@ Page({
         autoplay: false,
         interval: 3000,
         duration: 1200,
+        icon    : 'search'
     },
     intervalChange: function (e) {
         this.setData({
@@ -22,6 +23,12 @@ Page({
         this.setData({
             duration: e.detail.value
         })
+    },
+    formSubmit: function(e) {
+        console.log('form发生了submit事件，携带数据为：', e.detail.value)
+    },
+    formReset: function() {
+        console.log('form发生了reset事件')
     }
 })
 

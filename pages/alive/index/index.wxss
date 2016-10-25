@@ -9,3 +9,8 @@
 .section{
     margin-bottom:0px;
 }
+.page wx-input {
+    display : online;
+    padding:10px 15px;
+    background-color:#FF5000;
+}

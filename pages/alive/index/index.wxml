@@ -1,4 +1,9 @@
 <view class="page">
+  <form class="page__bd" catchsubmit="formSubmit" catchreset="formReset">
+      <view class="section">
+        <input name="search" placeholder="寻找宝贝"><button formType="submit"><icon type="{{icon}}" size="45"/></button></input>
+      </view>
+  </form>
   <view class="page__bd">
     <view class="section section_gap swiper">
       <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
@@ -11,6 +16,8 @@
       </swiper>
     </view>
   </view>
-  <view class>
+  <view>
+
+  </view>
 </view>
 
