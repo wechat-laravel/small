@@ -6,11 +6,29 @@
 .section_gap{
     padding: 0 0px;
 }
-.section{
+.nav_icon{
+    width:42px;
+    height:42px;
+    display : block;
+    float:left;
+    margin :2px;
+}
+.searchs{
+    width : 100%;
     margin-bottom:0px;
+    border: 2px solid #1AAD16;
+    float:left;
+    background: white;
+    padding-right:50px;
 }
 .page wx-input {
     display : online;
     padding:10px 15px;
-    background-color:#FF5000;
+    margin-right: -7px;
+}
+.search_button{
+    margin:-13px ;
+    padding-top:8px;
+    background: white;
+    float:left;
 }

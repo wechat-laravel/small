@@ -1,7 +1,12 @@
 <view class="page">
   <form class="page__bd" catchsubmit="formSubmit" catchreset="formReset">
-      <view class="section">
-        <input name="search" placeholder="寻找宝贝"><button formType="submit"><icon type="{{icon}}" size="45"/></button></input>
+      <view class="searchs">
+        <image class="nav_icon" src="{{icon_src}}"/>
+        <input name="search" placeholder="寻找宝贝">
+           <button class="search_button" formType="submit">
+             <icon class="search_icon" type="{{icon}}" size="23" color="black" />
+           </button>
+        </input>
       </view>
   </form>
   <view class="page__bd">

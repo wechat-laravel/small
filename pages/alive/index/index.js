@@ -12,6 +12,8 @@ Page({
         autoplay: false,
         interval: 3000,
         duration: 1200,
+        icon_src: '../../../image/icon.png',
+        nav_icon: 'safe_success',
         icon    : 'search'
     },
     intervalChange: function (e) {
