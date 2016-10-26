@@ -1,7 +1,7 @@
 Page({
     data: {
         imgUrls: [
-            {src:'../../../image/1.jpg'},
+            {src:'../../../image/5.jpg'},
             {src:'../../../image/2.jpg'},
             {src:'../../../image/3.jpg'},
             {src:'../../../image/4.png'},
@@ -14,7 +14,14 @@ Page({
         duration: 1200,
         icon_src: '../../../image/icon.png',
         nav_icon: 'safe_success',
-        icon    : 'search'
+        icon    : 'search',
+        catUrls: [
+            {src:'../../../image/tm.png'},
+            {src:'../../../image/tjb.png'},
+            {src:'../../../image/jhs.png'},
+            {src:'../../../image/jk.png'},
+            {src:'../../../image/fl.png'}
+        ]
     },
     intervalChange: function (e) {
         this.setData({

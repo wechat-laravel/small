@@ -21,8 +21,10 @@
       </swiper>
     </view>
   </view>
-  <view>
-
+  <view class="cat_div">
+       <block wx:for="{{catUrls}}" wx:for-item="cat">
+           <image class="cat_img" mode="aspectFill" src="{{cat.src}}"/>
+       </block>
   </view>
 </view>
 
